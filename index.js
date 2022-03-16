@@ -4,7 +4,7 @@ var config = require('./configTwit');
 var T = new Twit(config);
 var CronJob = require('cron').CronJob;
 
-const myAccount = '1501660738636627980'; //Ur account to avoid replying to yourself
+const myAccount = '1446220334353506311'; //Ur account to avoid replying to yourself
 var statusTweet = `New crypto alert: @trush_io. It’s a new banking protocol on Solana and it will be the next successor in DeFi. Check it! `; //Add your tweet here
 var isRunning = false;
 var hashtags = ['#solana'];
