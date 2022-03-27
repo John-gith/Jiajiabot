@@ -7,7 +7,7 @@ var CronJob = require('cron').CronJob;
 const myAccount = '1446220334353506311'; //Ur account to avoid replying to yourself
 var statusTweet = `New crypto alert: @trush_io. It’s a new banking protocol on Solana and it will be the next successor in DeFi. Check it! `; //Add your tweet here
 var isRunning = false;
-var hashtags = ['#solana'];
+var hashtags = ['#NFTs'];
 
 var job = new CronJob('*/15 * * * *', function () {
     if (isRunning == false) {
